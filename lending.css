@@ -1,0 +1,509 @@
+.body {
+  background: #f2f2f2;
+}
+
+.wrap {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ffffff;
+}
+.header {
+  padding: 55px 155px 176px 185px;
+  display: flex;
+  justify-content: space-between;
+  min-width: 1060px;
+  height: 31px;
+}
+
+.top-backgraund {
+  background-image: url(./images/background-street.jpg);
+  background-repeat: no-repeat;
+  width: 1480px;
+  margin-left: 35px;
+  margin-bottom: 35px;
+}
+
+.top-backgraund__rgba {
+  background: linear-gradient(
+    180deg,
+    rgba(53, 66, 103, 0.0001) 0%,
+    #151824 95.04%
+  );
+  margin-right: 70px;
+}
+
+.header__form__button {
+  margin-left: 80px;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  background: transparent;
+  border: none;
+}
+
+.main__article {
+  margin-left: 185px;
+}
+
+.article__header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  margin-right: 630px;
+  min-width: 120px;
+}
+
+.article__header__support {
+  margin: 22px 710px 55px 0px;
+  color: #ffffff;
+  font-family: Lato;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  line-height: 125%;
+}
+
+.article__form__interview {
+  padding-right: 340px;
+  padding-bottom: 370px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form__wrap-input {
+  display: inline;
+  height: 50px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.form__input__question {
+  width: 215px;
+  height: 25px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  margin: 0px 30px 25px 25px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.form__input__question::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.form__wrap-input::before {
+  display: inline-block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+.form__button__Search {
+  padding: 15px 40px;
+  background: #1b7dff;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.benefits_info {
+  margin: -775px 95px 125px 85px;
+  background: #ffffff;
+  box-shadow: 0px 2px 20px rgba(21, 24, 36, 0.15993);
+  position: absolute;
+  width: 1260px;
+  height: 655px;
+}
+
+.benefits_info__heading {
+  padding: 85px 900px 120px 95px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  color: #102746;
+}
+
+.benefits__list {
+  display: flex;
+  padding-bottom: 120px;
+}
+
+.benefits__list__logo {
+  width: 65px;
+  height: 65px;
+  margin-bottom: 35px;
+}
+
+.benefits__list__house {
+  margin-left: 95px;
+}
+
+.benefits__list-bold__header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.benefits__list-normal__header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.benefits__list__info {
+  min-width: 315px;
+  min-height: 70px;
+  padding-top: 25px;
+  padding-right: 55px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.benefits__list__info__link {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006dfe;
+  text-transform: uppercase;
+  padding-right: 25px;
+}
+
+.article__trip {
+  margin: 535px 90px 0px 90px;
+}
+
+.article__trip__wrap-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article__trip__header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.line {
+  border-bottom: 3px solid #006dfe;
+  margin-top: 7px;
+  width: 250px;
+}
+
+.article__trip__wrap-all_images {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+}
+
+.article__trip__wrap-image {
+  background: rgba(21, 24, 36, 0.4);
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 60px;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.article__trip__wrap-images__string {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.article__trip__wrap-images__Mount_Fuji {
+  background-image: url(./images/Mount\ Fuji.png);
+  background-repeat: no-repeat;
+  min-width: 620px;
+  min-height: 355px;
+  margin-right: 10px;
+}
+
+.article__trip__wrap-images__Kyoto {
+  background-image: url(./images/Kyoto.png);
+  min-width: 635px;
+  min-height: 355px;
+}
+
+.article__trip__wrap-images__2string {
+  min-width: 415px;
+  min-height: 285px;
+}
+.article__trip__wrap-images__Tokyo {
+  background-image: url(./images/Tokyo.png);
+}
+
+.article__trip__wrap-images__Niigata {
+  background-image: url(./images/Niigata.png);
+  margin: 0px 10px 0px 10px;
+}
+
+.article__trip__wrap-images__Sapporo {
+  background-image: url(./images/Sapporo.png);
+}
+
+.article__trip__name-image {
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.prefecture_and_Neighborhood__section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prefecture__section__image {
+  width: 595px;
+  height: 355px;
+  padding: 130px 110px 115px 85px;
+}
+.prefecture__section__text_header {
+  padding-top: 155px;
+  padding-bottom: 85px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;
+}
+
+.prefecture__section__text-support {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  padding-right: 120px;
+}
+
+.prefecture__section__link {
+  padding: 60px 360px 150px 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Neighborhood__section__padding-left {
+  margin-left: 130px;
+}
+
+.Neighborhood__section__text_header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;
+  padding-right: 270px;
+}
+
+.Neighborhood__section__text-support {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  padding: 45px 110px 95px 0px;
+}
+
+.Neighborhood__section__image {
+  width: 595px;
+  height: 355px;
+  padding-right: 85px;
+}
+
+.today_top_places_section {
+  padding: 105px 80px 145px;
+}
+
+.today_top_place_1section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 55px;
+}
+
+.today_top_place_section {
+  width: 390px;
+}
+
+.today_top_place_section_tittle__background_Nagoya {
+  background-image: url(./images/top_nagoya.png);
+}
+
+.size_image__top_place {
+  width: 385px;
+  height: 375px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.today_top_place_section_tittle__rgba {
+  background: #15182499;
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.today_top_place_section_tittle__name {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 15px 0px 15px 25px;
+}
+
+.today_top_place_section_tittle__support {
+  padding: 15px 0px 15px 155px;
+}
+
+.today_top_place_section_tittle__support__number {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-right: 5px;
+}
+
+.today_top_place_section_tittle__support__logo {
+  width: 15px;
+  height: 15px;
+  padding-right: 15px;
+}
+
+.today_top_place_section_tittle_description {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  padding-bottom: 30px;
+  padding-top: 45px;
+}
+
+.today_top_place_section_tittle_button {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #006dfe;
+  padding: 10px 20px;
+  border: none;
+}
+
+.today_top_place_section_tittle__background_Niigata {
+  background-image: url(./images/top_niigata.png);
+}
+
+.today_top_place_section_tittle__background_Osaka {
+  background-image: url(./images/top_osaka.png);
+}
+
+.today_top_place_section_tittle__background_Saitama {
+  background-image: url(./images/top_saitama.png);
+}
+
+.today_top_place_section_tittle__background_Yeno {
+  background-image: url(./images/top_yeno.png);
+}
+
+.today_top_place_section_tittle__background_Shibuya {
+  background-image: url(./images/top_shibuya.png);
+}
+
+.video__section {
+  background-image: url(./images/video_footer.png);
+  background-repeat: no-repeat;
+}
+
+.video__section__logo {
+  width: 115px;
+  height: 115px;
+  margin: 250px 665px;
+}
+
+.footer {
+  background: #0e1d28;
+  margin-bottom: 200px;
+  margin-top: -10px;
+}
+
+.footer__color {
+  color: #ffffff;
+  display: flex;
+  margin-left: 355px;
+  margin-bottom: 120px;
+}
+
+.footer__list__header {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.footer__list__support {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 5px;
+}
+
+.footer__info {
+  display: flex;
+  padding-top: 120px;
+  padding-right: 165px;
+  padding-left: 195px;
+}
+
+.footer__list_padding {
+  padding-right: 140px;
+  padding-left: 160px;
+}
