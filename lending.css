@@ -1,7 +1,3 @@
-.body {
-  background: #f2f2f2;
-}
-
 .wrap {
   width: 1440px;
   margin-left: auto;
@@ -43,14 +39,24 @@
   line-height: 24px;
   background: transparent;
   border: none;
-  transition: 1s;
+  position: relative;
+  text-decoration: none;
 }
 
-.header__form__button:hover {
-  padding-bottom: 5px;
-  border-bottom: solid 1px white;
-  transform: scale(1.2);
-  transition: 1s;
+.header__form__button::after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: white;
+  content: "";
+  transition: width 0.5s ease-out;
+}
+
+.header__form__button:hover:after,
+.header__form__button:focus:after {
+  width: 100%;
 }
 
 .main__article {
@@ -237,7 +243,8 @@
 
 .article__trip__wrap-all_images {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 35px;
 }
 
@@ -253,38 +260,35 @@
   width: 100%;
   display: flex;
   align-items: flex-end;
+  overflow: hidden;
 }
 
 .article__trip__wrap-images__string {
-  display: flex;
-  justify-content: space-between;
+  width: 620px;
+  height: 355px;
+  margin-right: 10px;
   margin-bottom: 10px;
+  overflow: hidden;
 }
 
 .article__trip__wrap-images__Mount_Fuji {
   background-image: url(./images/Mount\ Fuji.png);
-  background-repeat: no-repeat;
-  min-width: 620px;
-  min-height: 355px;
-  margin-right: 10px;
-  transition: 1s;
-  overflow: hidden;
 }
 
-.article__trip__wrap-images__Mount_Fuji:hover {
-  transform: scale(1.2);
+.article__trip__name-image:hover {
+  transform: scale(1.5);
   transition: 1s;
+  margin-left: 70px;
 }
 
 .article__trip__wrap-images__Kyoto {
   background-image: url(./images/Kyoto.png);
-  min-width: 635px;
-  min-height: 355px;
 }
 
 .article__trip__wrap-images__2string {
-  min-width: 415px;
-  min-height: 285px;
+  width: 412px;
+  height: 285px;
+  overflow: hidden;
 }
 .article__trip__wrap-images__Tokyo {
   background-image: url(./images/Tokyo.png);
@@ -302,8 +306,8 @@
 .article__trip__name-image {
   margin-left: 30px;
   margin-bottom: 30px;
+  transition: 0.5s;
 }
-
 .prefecture_and_Neighborhood__section {
   display: flex;
   justify-content: space-between;
@@ -398,11 +402,17 @@
 
 .today_top_place_section_tittle__rgba {
   background: #15182499;
-  height: 55px;
+  height: 0px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
+  transition: 1s;
 }
 
+.today_top_place_section_tittle__rgba:hover {
+  height: 55px;
+  transition: 1s;
+}
 .today_top_place_section_tittle__name {
   font-family: Lato;
   font-style: normal;
@@ -475,17 +485,6 @@
 
 .today_top_place_section_tittle__background_Shibuya {
   background-image: url(./images/top_shibuya.png);
-}
-
-.video__section {
-  background-image: url(./images/video_footer.png);
-  background-repeat: no-repeat;
-}
-
-.video__section__logo {
-  width: 115px;
-  height: 115px;
-  margin: 250px 665px;
 }
 
 .footer {
